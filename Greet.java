@@ -1,7 +1,7 @@
 class GreetThread extends Thread {
-	private Greet greet;
+	private Greetting greet;
 	private String name;
-	public GreetThread(Greet greet, String name) {
+	public GreetThread(Greetting greet, String name) {
 		this.greet = greet;
 		this.name = name;
 	}
